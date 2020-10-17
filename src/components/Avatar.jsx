@@ -1,8 +1,8 @@
-import src from '*.bmp';
 import React from 'react';
+import './../styles/Avatar.css'
 
 function Avatar() {
-    return <img src="avatar.jpg" className='round' alt='Avatar image' />
+    return <img src="avatar.jpg" className='round-img' alt='Avatar' />
 }
 
 export default Avatar;
